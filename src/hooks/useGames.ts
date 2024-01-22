@@ -12,7 +12,8 @@ export interface Games {
   id: number,
   name: string,
   background_image: string,
-  parent_platforms: {platform: Platform} [] //array of objects where each property has an object of platform of type Platform
+  parent_platforms: {platform: Platform} [], //array of objects where each property has an object of platform of type Platform
+  metacritic: number
 }
 
 interface FetchGamesResponse {
