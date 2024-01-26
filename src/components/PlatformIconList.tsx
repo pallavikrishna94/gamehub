@@ -35,7 +35,7 @@ const PlatformIconList = ({ platforms }: Props) => {
   return (
     <HStack marginY={1}>                                  //1 is 4px 
       {platforms.map((platform) => (
-        <Icon as={iconMap[platform.slug]} color="gray.500"/>      //if the icons are the same color as the heading it creates visual noise
+        <Icon key={platform.id} as={iconMap[platform.slug]} color="gray.500"/>      //if the icons are the same color as the heading it creates visual noise
       ))}
     </HStack>
   );
