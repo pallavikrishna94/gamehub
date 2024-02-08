@@ -19,4 +19,4 @@ const Emojis = ({rating}: Props) => {
   )
 }
 
-export default Emojis
+export default Emojis;
