@@ -5,6 +5,7 @@ import CriticScore from "./CriticScore";
 import getCroppedImageUrl from "../services/image-url";
 import Emojis from "./Emojis";
 
+
 interface Props {
   game: Games;
 }

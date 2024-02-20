@@ -10,4 +10,4 @@ const ColorModeSwitch = () => {
   )
 }
 
-export default ColorModeSwitch
+export default ColorModeSwitch;
